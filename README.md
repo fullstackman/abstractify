@@ -21,3 +21,4 @@ Original:
 ![clouds image](/clouds.jpg)
 
 Abstractified:
+![abstract image](/sample_output_rainbow.png)
