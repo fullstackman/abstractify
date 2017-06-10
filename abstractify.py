@@ -20,6 +20,23 @@ def posterize(image, level):
 	img2 = cv2.convertScaleAbs(img2)
 	return img2
 
-initial = initialize(sys.argv[1])
-poster = posterize(initial,6)
-cv2.imwrite("topo_image.png", poster)
+if __name__  == '__main__' :
+	initial = initialize(sys.argv[1])
+	poster = posterize(initial,6)
+	colorized = cv2.applyColorMap(poster, cv2.COLORMAP_RAINBOW)
+	cv2.imwrite("sample_out.png", colorized)
+
+"""
+0	COLORMAP_AUTUMN
+1	COLORMAP_BONE
+2	COLORMAP_JET
+3	COLORMAP_WINTER
+4	COLORMAP_RAINBOW
+5	COLORMAP_OCEAN
+6	COLORMAP_SUMMER
+7	COLORMAP_SPRING
+8	COLORMAP_COOL
+9	COLORMAP_HSV
+10	COLORMAP_PINK
+11	COLORMAP_HOT
+"""
