@@ -18,7 +18,9 @@ After experimenting with [this code](https://github.com/jefarrell/Topography.py)
 
 ## Example
 Original:
+
 ![clouds image](/clouds.jpg)
 
 Abstractified:
-![abstract image](/sample_output_rainbow.png)
+
+![abstract image](/sample_out.png)
