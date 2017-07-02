@@ -8,6 +8,9 @@ Apply a filter to your image to make it look like abstract art.
 
 After experimenting with [this code](https://github.com/jefarrell/Topography.py), It failed to produce the kind of maps I had first envisioned, but the output had an artistic look. I decided to experiment further and turn that idea into something presentable.
 
+## Requirements
+Python 2.7.x (Python 3 support is [planned](https://stackoverflow.com/a/25957555) )
+
 ## Usage
 <pre><code>python topo.py yourImage.jpg</code></pre>
 

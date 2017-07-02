@@ -1,6 +1,5 @@
 import numpy as np
 import sys
-sys.path.append('/usr/local/lib/python2.7/site-packages/')
 import cv2
 
 def initialize(image):
@@ -24,7 +23,7 @@ if __name__  == '__main__' :
 	initial = initialize(sys.argv[1])
 	poster = posterize(initial,6)
 	colorized = cv2.applyColorMap(poster, cv2.COLORMAP_RAINBOW)
-	cv2.imwrite("sample_out.png", colorized)
+	cv2.imwrite("current_output.png", colorized)
 
 """
 0	COLORMAP_AUTUMN
